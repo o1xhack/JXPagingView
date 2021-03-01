@@ -30,15 +30,14 @@ class NaviHiddenViewController: BaseViewController {
         naviBGView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: naviHeight)
         self.view.addSubview(naviBGView)
 
-        let naviTitleLabel = UILabel()
-        naviTitleLabel.text = "导航栏隐藏"
-        naviTitleLabel.textAlignment = .center
-        naviTitleLabel.frame = CGRect(x: 0, y: topSafeMargin, width: self.view.bounds.size.width, height: 44)
-        naviBGView.addSubview(naviTitleLabel)
+        let navImage = UIImageView()
+        navImage.image = UIImage(named: "image")
+        navImage.frame = CGRect(x: self.view.bounds.size.width / 2 - 44, y: topSafeMargin, width: 44, height: 44)
+        naviBGView.addSubview(navImage)
 
-        let back = UIButton(type: .system)
-        back.setTitle("返回", for: .normal)
-        back.frame = CGRect(x: 12, y: topSafeMargin, width: 44, height: 44)
+        let back = UIButton(type: .custom)
+        back.setImage(UIImage(named: "image"), for: .normal)
+        back.frame = CGRect(x: 12, y: topSafeMargin, width: 14, height: 14)
         back.addTarget(self, action: #selector(naviBack), for: .touchUpInside)
         naviBGView.addSubview(back)
     }

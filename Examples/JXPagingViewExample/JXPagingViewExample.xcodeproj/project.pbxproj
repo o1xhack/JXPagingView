@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1598B29325E8EB56006D00E9 /* ViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598B29225E8EB56006D00E9 /* ViewHeader.swift */; };
+		1598B29D25EC8EA4006D00E9 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1598B29C25EC8EA4006D00E9 /* HeaderView.xib */; };
 		194A933723B9BFF600C05DBA /* NestSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A933623B9BFF600C05DBA /* NestSubjectViewController.swift */; };
 		19B9EA3B23B9EA550099E656 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9EA3A23B9EA550099E656 /* ListViewController.swift */; };
 		19B9EA3D23B9F0340099E656 /* ListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9EA3C23B9F0340099E656 /* ListCollectionViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1598B29225E8EB56006D00E9 /* ViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeader.swift; sourceTree = "<group>"; };
+		1598B29C25EC8EA4006D00E9 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		194A933623B9BFF600C05DBA /* NestSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestSubjectViewController.swift; sourceTree = "<group>"; };
 		19B9EA3A23B9EA550099E656 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		19B9EA3C23B9F0340099E656 /* ListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				19F153042387DCCC0043A86E /* CollectionViewViewController.swift */,
+				1598B29225E8EB56006D00E9 /* ViewHeader.swift */,
+				1598B29C25EC8EA4006D00E9 /* HeaderView.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -311,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F152F82387DBA80043A86E /* LaunchScreen.storyboard in Resources */,
+				1598B29D25EC8EA4006D00E9 /* HeaderView.xib in Resources */,
 				19F1538C2387DFD00043A86E /* lufei.jpg in Resources */,
 				19F152F52387DBA80043A86E /* Assets.xcassets in Resources */,
 				19F152F32387DBA60043A86E /* Main.storyboard in Resources */,
@@ -366,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1598B29325E8EB56006D00E9 /* ViewHeader.swift in Sources */,
 				19F153352387DCCC0043A86E /* VCViewController.swift in Sources */,
 				19B9EA3D23B9F0340099E656 /* ListCollectionViewController.swift in Sources */,
 				194A933723B9BFF600C05DBA /* NestSubjectViewController.swift in Sources */,

@@ -14,13 +14,13 @@ class PagingViewTableHeaderView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-
+        
         imageView.clipsToBounds = true
         imageView.contentMode = .scaleAspectFill
         imageView.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
         imageView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         self.addSubview(imageView)
-
+        
         let label = UILabel(frame: CGRect(x: 10, y: frame.size.height - 30, width: 200, height: 30))
         label.font = UIFont.systemFont(ofSize: 20)
         label.text = "Monkey·D·路飞"
@@ -43,7 +43,7 @@ class PagingViewTableHeaderView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     override func layoutSubviews() {
         super.layoutSubviews()
 
